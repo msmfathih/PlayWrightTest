@@ -1,5 +1,7 @@
 const {test,expect}=require('@playwright/test')
 
+test.use({viewport:{width:1500,height:1000}})
+
 test("Login test", async function({page}) {
 
     await page.goto("https://www.saucedemo.com")
