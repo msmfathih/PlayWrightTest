@@ -35,7 +35,7 @@ reporter: [
 
 //npx playwright test
 //allure serve allure-results
-
+//allure generate allure-results -o allure-report --clean
 
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {

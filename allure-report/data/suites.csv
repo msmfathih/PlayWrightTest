@@ -1,0 +1,6 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","1524","Order test","chromium","2026-05-06","passed","2026-05-06","","purchase2.spec.js","",""
+"","751","has title","chromium","2026-05-06","passed","2026-05-06","","example.spec.js","",""
+"","2186","get started link","chromium","2026-05-06","passed","2026-05-06","","example.spec.js","",""
+"","1226","Login test","chromium","2026-05-06","passed","2026-05-06","","purchase.spec.js","",""
+"","1431","Login test","chromium","2026-05-06","passed","2026-05-06","","purchase2.spec.js","",""
