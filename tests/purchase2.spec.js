@@ -45,6 +45,8 @@ test("Order test", async function({page}) {
 
     await page.locator("//button[@id='finish']").click()
 
+    await page.waitForLoadState("networkidle")//wait for the page top load completly 
+
     const verifySuccessMessage=await page.locator("//h2[normalize-space()='Thank you for your order!']").textContent()
 
     console.log("The message is "+verifySuccessMessage);
