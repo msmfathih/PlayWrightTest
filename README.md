@@ -21,7 +21,7 @@ git commit -m "Added new test cases"
 git push origin main
 
 
-Installing Proxy(tunnel)server to host Local jenkins publicly on Linux server
+Installing Proxy(tunnel)server to host Local jenkins publicly on Linux VM
 =============================================================================
 
 Install ngrok in linux
