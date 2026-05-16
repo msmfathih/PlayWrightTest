@@ -2,7 +2,7 @@ const {test,expect}=require('@playwright/test')
 const LoginPage=require("../pages/loginpage")
 const { credentials } = require('../testdata/credentials')
 
-test.use({viewport:{width:1501,height:1000}})
+test.use({viewport:{width:1502,height:1000}})
 
 test("Login test", async function({page}) {
 
