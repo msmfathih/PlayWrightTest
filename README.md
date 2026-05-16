@@ -25,22 +25,18 @@ Installing Proxy(tunnel)server to host Local jenkins publicly on Linux VM
 =============================================================================
 
 Install ngrok in linux
-1.Download ngrok
-"1.curl -s https://ngrok-agent.s3.amazonaws.com/ngrok.asc | \
-sudo tee /etc/apt/trusted.gpg.d/ngrok.asc >/dev/null"
 
-2. Add repository
-echo "deb https://ngrok-agent.s3.amazonaws.com buster main" | \
+1.Download ngrok : echo "deb https://ngrok-agent.s3.amazonaws.com buster main" | \
 sudo tee /etc/apt/sources.list.d/ngrok.list
 
-4. Update packages
-sudo apt update
+2. Add repository : echo "deb https://ngrok-agent.s3.amazonaws.com buster main" | \
+sudo tee /etc/apt/sources.list.d/ngrok.list
 
-6. Install ngrok
-sudo apt install ngrok
+4. Update packages : sudo apt update
 
-7.Verify Installation
-ngrok version
+6. Install ngrok : sudo apt install ngrok
+
+7.Verify Installation : ngrok version
 
 8.https://dashboard.ngrok.com/get-started/your-authtoken?utm_source=chatgpt.com
 ngrok config add-authtoken YOUR_TOKEN
