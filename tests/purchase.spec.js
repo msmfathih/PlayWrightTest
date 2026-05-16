@@ -15,7 +15,6 @@ test("Login test", async function({page}) {
     await page.locator("//button[@id='add-to-cart-sauce-labs-bolt-t-shirt']").click()
 
     await page.locator("//button[@id='add-to-cart-sauce-labs-fleece-jacket']").click()
-
     await page.locator("//a[@class='shopping_cart_link']").click()
 
     await page.locator("//button[@id='checkout']").click()
