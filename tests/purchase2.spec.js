@@ -6,7 +6,7 @@ test("Login test", async function({page}) {
 
     await page.goto("https://www.saucedemo.com")
 
-    await page.getByPlaceholder("Username").fill("standard_user",{delay:200});
+    await page.getByPlaceholder("Username").fill("standard_user",{delay:300});
 
     await page.getByPlaceholder("Password").fill("secret_sauce",{delay:800})
 
