@@ -1,4 +1,4 @@
-# Playwright Automation Framework with Jenkins CI/CD
+# Playwright Automation Framework with Jenkins CI/CD on Linux VM(UTM)
 
 This project demonstrates an end-to-end UI automation framework using Playwright with CI/CD integration on Jenkins running on a Linux VM.
 
